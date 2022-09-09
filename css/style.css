@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+
+/* .intro{
+   font-family: var(--font1);
+  
+   vertical-align: top; 
+   background-color: blue;
+} */
+
+.intro img {
+  width: 65%;
+  margin-left: 15%;
+
+}
+.ruler{
+  color: var(--main-bg-color);
+  border-radius: 11px;
+  margin-right: 06rem;
+}
+@media only screen and (max-width: 1026px) { 
+  #hide{ 
+    display: none; 
+  } 
+}
+
+
+.container#para {
+
+  margin-right: 15%;
+
+
+}
+
+
+
+.description {
+  font-family: var(--font2);
+  font-size: x-large;
+
+
+  /* vertical-align: top; */
+
+
+}
+
+.nav-item {
+  font-family: var(--font1);
+  font-size: x-large;
+}
+
+
+.container#para {
+  margin-top: 5%;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.card-body {
+  background-color: rgb(60 200 177);
+}
+div.card-footer{
+  background-color: var(--main-bg-color)
+}
+
+.card-title {
+  color: black;
+}
+
+
+.card-text {
+  color: black;
+}
+
+.footer {
+  margin-top: 10%;
+}
+
+#link {
+  text-decoration: none;
+}
+
+div.row {
+  margin-top: 10%;
+}
+
+footer h5.text-uppercase {
+  color: var(--main-bg-color);
+  font-family: var(--font4);
+}
+
+#footercontent {
+  font-family: var(--font4);
+}
+
+
+a.navbar-logo {
+
+  font-family: var(--font4);
+  color: var(--main-bg-color);
+}
+
+.navbar-logo {
+
+  font-family: var(--font4);
+  color: var(--main-bg-color);
+}
+
+nav.navbar ul li a.nav-link.active {
+  color: var(--main-bg-color);
+  text-decoration: overline;
+
+}
+
+nav.navbar ul li a.nav-link:hover {
+  color: var(--main-bg-color);
+  text-decoration: overline;
+
+}
+
+
+button.btn-outline {
+  color: white;
+  margin-left: 5px;
+  border-color: var(--main-bg-color);
+  
+  
+}
+button.btn-outline:hover {
+  background-color: var(--main-bg-color);
+  color: white;
+  border-width: 0px;
+}
+
+
+/* form button.btn-outline:hover {
+  background-color: var(--main-bg-color);
+  color: black;
+
+}
+
+form button.btn-outline {
+  color: var(--main-bg-color);
+  border-color: var(--main-bg-color);
+
+} */
+
+.contact {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.service {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.about {
+  text-align: center;
+  margin-top: 10%;
+}
+
+span {
+  color: var(--main-bg-color);
+}
+
+p.card-text {
+
+  font-family: 'Titillium Web', sans-serif;
+  color: rgb(38, 38, 38);
+}
+
+h5.card-title {
+  font-weight: bold;
+}

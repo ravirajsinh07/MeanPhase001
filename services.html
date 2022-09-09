@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shree radhekrishna</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/utils.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body style="color: white; background-color: black;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand navbar-logo" href="index.html" id="logo">JMB devlopers®</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">about</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="services.html">Web devlopment</a></li>
+              <li><a class="dropdown-item" href="services.html">Data analysis</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="services.html">All services</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline" type="submit">Search</button>
+        </form>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border-color: var(--main-bg-color); color: white;">
+          Sign up
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel" style="color: black;">
+                  Registration
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <form name="myform" method="post" action="https://help.formstack.com/servlet/rtaImage?eid=ka04w00000111lA&feoid=00N4w00000GLYSh&refid=0EM4w000002HxNh" onsubmit="return validateform()" >  
+                <div class="form-floating mb-3" style="color:black;">
+                  <input type="email" class="form-control" id="floatingInput" name="email" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating" style="color:black;">
+                  <input type="password" class="form-control" id="floatingPassword" name="password" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+                 
+              <div class="modal-footer">
+                <button type="button" class="btn btn-block btn-danger" data-bs-dismiss="modal">
+                  Close
+                </button>
+                <button type="submit" class="btn btn-success" value="register">
+                  create a new account
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="service">
+    <h1>This is a <span> service </span> page.works fine !</h1>
+  </div>
+
+
+
+  <!-- footer -->
+
+
+  <footer class="footer bg-dark text-white pt-5 pb-4">
+    <div class="container text-md-left">
+
+      <div class="row text-md-left">
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+
+          <h5 class="text-uppercase mb-4 font-weight-bold" id="logo">JMB devlopers®</h5>
+          <p id="footercontent">Our curated
+            Career Paths provide you with the step-by-step roadmap you need to take
+            you from any level, to getting hired and advancing your career.</p>
+
+        </div>
+        <div class="col-md-2 coll-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">services</h5>
+          <p>
+            <a href="services.html" class="text-white" id="footercontent" style="text-decoration: none;">Web
+              devlopment</a>
+          </p>
+          <p>
+            <a href="services.html" class="text-white" id="footercontent" style="text-decoration: none;">Data
+              analysis</a>
+          </p>
+          <p>
+            <a href="services.html" class="text-white" id="footercontent" style="text-decoration: none;">All
+              services</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Quick links</h5>
+          <p>
+            <a href="index.html" class="text-white" id="footercontent" style="text-decoration: none;">Home</a>
+          </p>
+          <p>
+            <a href="about.html" class="text-white" id="footercontent" style="text-decoration: none;">About</a>
+          </p>
+          <p>
+            <a href="contact.html" class="text-white" id="footercontent" style="text-decoration: none;">Contact us</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase text-left mb-4 font-weight-bold">Contact</h5>
+          <p>
+            <i class="fas fa-home mr-3"> Ahmedabad,Gujarat,380054</i>
+          </p>
+          <p>
+            <i class="fas fa-envelope mr-3"> info@jmbdevlopers.in</i>
+          </p>
+          <p>
+            <i class="fas fa-phone mr-3"> +91-987-654-3210</i>
+          </p>
+          <p>
+            <i class="fas fa-print mr-3 "> 5451-554-33</i>
+          </p>
+
+
+        </div>
+
+      </div>
+      <hr class="mb-4">
+      <div class="row align-item-center">
+        <div class="col-md-7 col-lg-8">
+          <p>Copyright ©2022 All rights reserved by:
+            <a href="about.html" style="text-decoration: none;"><strong class="navbar-logo">JMB Devlopers</strong></a>
+          </p>
+
+
+        </div>
+        <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-left">
+
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 24px;"><i
+                    class="fab fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 24px;"><i
+                    class="fab fa-instagram"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 24px;"><i
+                    class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 24px;"><i
+                    class="fab fa-github"></i></a>
+              </li>
+
+            </ul>
+
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+
+  </footer>
+</body>
+
+</html>
